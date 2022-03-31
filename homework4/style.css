@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1080px;
+    margin: auto;
+}
+
+body {
+    background-color: #FFFAF3;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url(./img/Image\ 1.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+header {
+    border-bottom: solid 1px #C08D5D;
+    max-width: 470px;
+}
+
+nav {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 43px 0 42.5px 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    padding-left: 82.36px;
+}
+
+.home {
+    color: #C08D5D;
+}
+
+.logo {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+main p {
+    max-width: 535px;
+    color: #3F4042;
+    font-size: 18px;
+    font-family: 'Open Sans';
+}
+
+p {
+    color: #3F4042;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    padding-bottom: 72px;
+    letter-spacing: 0.06em;
+}
+
+span::after {
+    font-size: 50px;
+    font-weight: 400;
+    content: '';
+    display: inline-block;
+    width: 45.21px;
+    height: 69.04px;
+    background-size: contain;
+    background-image: url(./img/Logo.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    text-transform: none;
+}
+
+span {
+    font-family: 'Yeseva One';
+    font-weight: 400;
+    font-size: 50px;
+}
+
+h1 {
+    padding-top: 122.5px;
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-family: 'Yeseva One';
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 81px;
+    letter-spacing: 0.06em;
+    margin-bottom: 45px;
+}
+
+h1::after {
+    content: url(./img/Vector\ 1.svg);
+    display: block;
+}
+
+.read-more {
+    display: inline-block;
+    background-color: #FFFAF3;
+    color: #3F4042;
+    text-decoration: none;
+    padding-left: 15px;
+    line-height: 66px;
+    border: solid 2px #C08D5D;
+    font-size: 20px;
+}
+
+.read-more::after {
+    content: url(./img/Vector\ 2.svg);
+    display: inline-block;
+    width: 61px;
+    height: 66px;
+    background-color: #C08D5D;
+    font-family: 'Open Sans';
+    text-align: center;
+    margin-left: 11px;
+    border: solid 2px #C08D5D;
+}
+
+.mouse img {
+    display: block;
+    padding-top: 63px;
+    padding-left: 523px;
+}
