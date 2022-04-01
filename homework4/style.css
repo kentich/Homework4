@@ -66,14 +66,16 @@ p {
 }
 
 span::after {
-    content: url(./img/Logo.svg);
+    content: '';
     display: inline-block;
     width: 45.21px;
     height: 69.04px;
+    background-image: url(./img/Logo.svg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
     text-transform: none;
+    vertical-align: sub;
 }
 
 span {
@@ -82,6 +84,7 @@ span {
     font-size: 50px;
     line-height: 58px;
     text-transform: none;
+    vertical-align: sub;
 }
 
 h1 {
